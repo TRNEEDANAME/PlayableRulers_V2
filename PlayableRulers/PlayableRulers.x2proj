@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>6a583dd1-ec69-475f-b381-eb54533c1b15</Guid>
+    <Name>PlayableRulers</Name>
+    <Description>A mod that adds the Rulers as playable units</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>PlayableRulers</AssemblyName>
+    <RootNamespace>PlayableRulers</RootNamespace>
+    <ProjectGuid>{09c9148a-bdce-4080-bf60-82cbb66dae0d}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Config\Ability\" />
+    <Folder Include="Config\ArmorWeapon\" />
+    <Folder Include="Config\Base\" />
+    <Folder Include="Config\Compatibility\" />
+    <Folder Include="Config\Cost\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\PlayableRulers\" />
+    <Folder Include="Src\PlayableRulers\Classes\" />
+    <Content Include="ReadMe.txt" />
+    <Content Include="ContentOptions.json" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="PublishedFileId.ID" />
+    <Content Include="ReadMe.md" />
+    <Content Include="Config\XComClassData.ini" />
+    <Content Include="Config\XComEncyclopedia.ini" />
+    <Content Include="Config\XComGameData_CharacterStats.ini" />
+    <Content Include="Config\XComPlayableAdvent.ini" />
+    <Content Include="Config\XcomTemplateCreator.ini" />
+    <Content Include="Config\XcomTemplateEditor.ini" />
+    <Content Include="Config\XcomWeaponSkinReplacer.ini" />
+    <Content Include="Config\Ability\XcomGameData_PassiveSkills.ini" />
+    <Content Include="Config\Ability\XcomGameData_SoldierSkills.ini" />
+    <Content Include="Config\ArmorWeapon\XComGameData_ArmorData.ini" />
+    <Content Include="Config\ArmorWeapon\XComGameData_WeaponData.ini" />
+    <Content Include="Config\Base\XComEditor.ini" />
+    <Content Include="Config\Base\XComEngine.ini" />
+    <Content Include="Config\Base\XComGame.ini" />
+    <Content Include="Config\Base\XComGameData.ini" />
+    <Content Include="Config\Compatibility\XcomInfiltration.ini" />
+    <Content Include="Config\Compatibility\XComTruePrimarySecondaries.ini" />
+    <Content Include="Config\Compatibility\XComUFOpedia.ini" />
+    <Content Include="Config\Cost\XComStrategyTuning.ini" />
+    <Content Include="Config\Cost\XcomWeaponTuning.ini" />
+    <Content Include="Content\PARulers_Tongue_Item.upk" />
+    <Content Include="Content\TR_PlayableRulers_ClassIcons.upk" />
+    <Content Include="Localization\WOTC_UFOpedia.int" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\PlayableRulers\Classes\PA_ArchonKingTech.uc" />
+    <Content Include="Src\PlayableRulers\Classes\PA_BerserkerQueenTech.uc" />
+    <Content Include="Src\PlayableRulers\Classes\PA_ViperKingTech.uc" />
+    <Content Include="Src\PlayableRulers\Classes\X2Ability_PlayableRulers.uc" />
+    <Content Include="Src\PlayableRulers\Classes\X2Ability_PlayableRulers_ItemGrantedAbility.uc" />
+    <Content Include="Src\PlayableRulers\Classes\X2BQArmorTemplate.uc" />
+    <Content Include="Src\PlayableRulers\Classes\X2Character_PlayableRulers.uc" />
+    <Content Include="Src\PlayableRulers\Classes\X2DownloadableContentInfo_PlayableRulers.uc" />
+    <Content Include="Src\PlayableRulers\Classes\X2Effect_PunchDamage.uc" />
+    <Content Include="Src\PlayableRulers\Classes\X2Item_AlienBossesWeapons.uc" />
+    <Content Include="Src\PlayableRulers\Classes\X2Item_AlienBossWeaponsSchematics.uc" />
+    <Content Include="Src\PlayableRulers\Classes\X2Item_PARulersGrenades.uc" />
+    <Content Include="Src\PlayableRulers\Classes\X2Item_PlayableRulersArmor.uc" />
+  </ItemGroup>
+</Project>
