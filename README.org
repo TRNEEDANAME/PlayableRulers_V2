@@ -16,7 +16,7 @@ This will be the most up to date project folder from the mod, even before it's o
 
 *** Required mod
 
-Required mod = [[https://steamcommunity.com/sharedfiles/filedetails/?id=1561030099][Mitzruti's Perk Pack]], [[https://steamcommunity.com/workshop/filedetails/?id=1134256495][X2WOTCCommunityHighlander]], [[https://steamcommunity.com/sharedfiles/filedetails/?id=1124713229][Custom Soldier Evac Fix]] and [[https://steamcommunity.com/sharedfiles/filedetails/?id=2534737016][Alien Hunters Community Highlander \[WOTC]]]
+Required mod = [[https://steamcommunity.com/sharedfiles/filedetails/?id=1561030099][Mitzruti's Perk Pack]], [[https://steamcommunity.com/workshop/filedetails/?id=1134256495][X2WOTCCommunityHighlander]], [[https://steamcommunity.com/sharedfiles/filedetails/?id=1124713229][Custom Soldier Evac Fix]] and [[https://steamcommunity.com/sharedfiles/filedetails/?id=2534737016][Alien Hunters Community Highlander]]
 
 (The perk pack is not *required*, but a lot of ability won't work or will need new ability tree.)
 
