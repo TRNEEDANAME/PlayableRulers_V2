@@ -205,11 +205,11 @@ var config int PA_Muton_MC_MaxNumTurn;
 static function array<X2DataTemplate> CreateTemplates()
 {
 	local array<X2DataTemplate> Templates;
-
 	// Ruler reaction
 	Templates.AddItem(Create_PA_RulersReactions_Ability());
 
 	// Viper King
+	Templates.AddItem(Create_PA_ViperKing_FrostbiteAbility());
 	Templates.AddItem(Create_PA_GetOverHereAbility());
 	Templates.AddItem(Create_PA_BindAbility());
 	Templates.AddItem(Create_PA_BindSustainedAbility());

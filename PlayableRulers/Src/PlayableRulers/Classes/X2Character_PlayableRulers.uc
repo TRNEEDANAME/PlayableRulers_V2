@@ -73,6 +73,8 @@ static function X2CharacterTemplate CreateTemplate_ViperBoss()
 	CharTemplate.Abilities.AddItem('Interact_UseElevator');
 
 	CharTemplate.Abilities.AddItem('Interact_PlantBomb');
+	CharTemplate.Abilities.AddItem('PA_ViperKing_Frostbite');
+	CharTemplate.Abilities.AddItem('PA_RulersReactions');
 	CharTemplate.Abilities.AddItem('Interact_TakeVial');
 	CharTemplate.Abilities.AddItem('Interact_StasisTube');
 	CharTemplate.Abilities.AddItem('Interact_MarkSupplyCrate');
@@ -174,6 +176,7 @@ static function X2CharacterTemplate CreateTemplate_ArchonBoss()
 	CharTemplate.RequiredLoadout = 'ArchonBoss_Loadout';
 
 	CharTemplate.Abilities.AddItem('Interact_PlantBomb');
+	CharTemplate.Abilities.AddItem('PA_RulersReactions');
 	CharTemplate.Abilities.AddItem('Interact_TakeVial');
 	CharTemplate.Abilities.AddItem('Interact_StasisTube');
 	CharTemplate.Abilities.AddItem('Interact_MarkSupplyCrate');
@@ -201,7 +204,7 @@ static function X2CharacterTemplate CreateTemplate_ArchonBoss()
 	CharTemplate.ImmuneTypes.AddItem('Mental');
 
 	CharTemplate.MPPointValue = CharTemplate.XpKillscore * 10;
-	
+
 	CharTemplate.strScamperBT = "ScamperRoot_NoCover";
 
 	CharTemplate.SightedNarrativeMoments.AddItem(XComNarrativeMoment'DLC_60_NarrativeMoments.DLC2_T_Archon_King_Reveal');
@@ -271,6 +274,7 @@ static function X2CharacterTemplate CreateTemplate_BerserkerBoss()
 	CharTemplate.Abilities.AddItem('Interact_UseElevator');
 
 	CharTemplate.Abilities.AddItem('Interact_PlantBomb');
+	CharTemplate.Abilities.AddItem('PA_RulersReactions');
 	CharTemplate.Abilities.AddItem('Interact_TakeVial');
 	CharTemplate.Abilities.AddItem('Interact_StasisTube');
 	CharTemplate.Abilities.AddItem('Interact_MarkSupplyCrate');
