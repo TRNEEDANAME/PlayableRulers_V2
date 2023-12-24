@@ -70,11 +70,9 @@ static function X2CharacterTemplate CreateTemplate_ViperBoss()
 	CharTemplate.DefaultLoadout = 'ViperBoss_Loadout';
 	CharTemplate.RequiredLoadout = 'ViperBoss_Loadout';
 
-	CharTemplate.Abilities.AddItem('Interact_UseElevator');
 
 	CharTemplate.Abilities.AddItem('Interact_PlantBomb');
 	CharTemplate.Abilities.AddItem('PA_ViperKing_Frostbite');
-	CharTemplate.Abilities.AddItem('PA_RulersReactions');
 	CharTemplate.Abilities.AddItem('Interact_TakeVial');
 	CharTemplate.Abilities.AddItem('Interact_StasisTube');
 	CharTemplate.Abilities.AddItem('Interact_MarkSupplyCrate');
@@ -146,7 +144,7 @@ static function X2CharacterTemplate CreateTemplate_ArchonBoss()
 	CharTemplate.bCanUse_eTraversal_Launch = true;
 	CharTemplate.bCanUse_eTraversal_Flying = true;
 	CharTemplate.bCanUse_eTraversal_Land = true;
-	CharTemplate.bAppearanceDefinesPawn = false;    
+	CharTemplate.bAppearanceDefinesPawn = false;
 	CharTemplate.bCanTakeCover = false;
 
 	CharTemplate.bIsAlien = true;
@@ -176,7 +174,6 @@ static function X2CharacterTemplate CreateTemplate_ArchonBoss()
 	CharTemplate.RequiredLoadout = 'ArchonBoss_Loadout';
 
 	CharTemplate.Abilities.AddItem('Interact_PlantBomb');
-	CharTemplate.Abilities.AddItem('PA_RulersReactions');
 	CharTemplate.Abilities.AddItem('Interact_TakeVial');
 	CharTemplate.Abilities.AddItem('Interact_StasisTube');
 	CharTemplate.Abilities.AddItem('Interact_MarkSupplyCrate');
@@ -271,10 +268,7 @@ static function X2CharacterTemplate CreateTemplate_BerserkerBoss()
 
 	CharTemplate.ImmuneTypes.AddItem('Mental');
 
-	CharTemplate.Abilities.AddItem('Interact_UseElevator');
-
 	CharTemplate.Abilities.AddItem('Interact_PlantBomb');
-	CharTemplate.Abilities.AddItem('PA_RulersReactions');
 	CharTemplate.Abilities.AddItem('Interact_TakeVial');
 	CharTemplate.Abilities.AddItem('Interact_StasisTube');
 	CharTemplate.Abilities.AddItem('Interact_MarkSupplyCrate');
