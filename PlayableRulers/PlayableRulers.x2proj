@@ -22,11 +22,9 @@
     <Folder Include="Src\" />
     <Folder Include="Src\PlayableRulers\" />
     <Folder Include="Src\PlayableRulers\Classes\" />
-    <Content Include="ReadMe.txt" />
     <Content Include="ContentOptions.json" />
     <Content Include="ModPreview.jpg" />
     <Content Include="PublishedFileId.ID" />
-    <Content Include="ReadMe.md" />
     <Content Include="Config\XComClassData.ini" />
     <Content Include="Config\XComEncyclopedia.ini" />
     <Content Include="Config\XComGameData_CharacterStats.ini" />
@@ -51,6 +49,9 @@
     <Content Include="Content\TR_PlayableRulers_ClassIcons.upk" />
     <Content Include="Localization\WOTC_UFOpedia.int" />
     <Content Include="Localization\XComGame.int" />
+    <Content Include="README.org">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Src\PlayableRulers\Classes\PA_ArchonKingTech.uc" />
     <Content Include="Src\PlayableRulers\Classes\PA_BerserkerQueenTech.uc" />
     <Content Include="Src\PlayableRulers\Classes\PA_ViperKingTech.uc" />
