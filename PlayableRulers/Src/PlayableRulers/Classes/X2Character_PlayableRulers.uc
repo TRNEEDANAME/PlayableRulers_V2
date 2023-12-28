@@ -189,8 +189,7 @@ static function X2CharacterTemplate CreateTemplate_ArchonBoss()
 	CharTemplate.Abilities.AddItem('HunkerDown');
 	CharTemplate.Abilities.AddItem('DisableConsumeAllPoints');
 	CharTemplate.Abilities.AddItem('Revive');
-	CharTemplate.Abilities.AddItem('ArchonKingBlazingPinionsStage1');
-	CharTemplate.Abilities.AddItem('ArchonKingBlazingPinionsStage2');
+	CharTemplate.Abilities.AddItem('PA_ArchonKingBlazingPinionsStage1');
 	CharTemplate.Abilities.AddItem('IcarusDropSlam');
 
 	CharTemplate.ImmuneTypes.AddItem('Shattered');

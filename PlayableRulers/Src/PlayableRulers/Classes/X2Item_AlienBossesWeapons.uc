@@ -57,10 +57,8 @@ static function array<X2DataTemplate> CreateTemplates()
 		Weapons.AddItem(CreateTemplate_ArchonBoss_MeleeAttack());
 		Weapons.AddItem(CreateTemplate_BerserkerBoss_MeleeAttack());
 
-
 	return Weapons;
 }
-
 
 static function X2DataTemplate CreateTemplate_PARulers_BoltCaster_CV()
 {

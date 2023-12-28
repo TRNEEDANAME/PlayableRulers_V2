@@ -48,7 +48,7 @@ static function X2DataTemplate CreatePA_ViperKingFrostGlobCat()
 
 	Template.InventorySlot = eInvSlot_Utility;
 	Template.StowedLocation = eSlot_None;
-	Template.Abilities.AddItem('PA_Frostbite');
+	Template.Abilities.AddItem('PA_ViperKing_Frostbite');
 
 	// This controls how much arc this projectile may have and how many times it may bounce
 	Template.WeaponPrecomputedPathData.InitialPathTime = 0.5; // 0.5
