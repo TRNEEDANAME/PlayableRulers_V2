@@ -20,7 +20,6 @@ static function X2CharacterTemplate CreateTemplate_ViperBoss()
 
 	`CREATE_X2CHARACTER_TEMPLATE(CharTemplate, 'PA_ViperKing');
 	CharTemplate.CharacterGroupName = 'ViperKing';
-	CharTemplate.DefaultLoadout='ViperBoss_Loadout';
 	CharTemplate.BehaviorClass=class'XGAIBehavior';
 	CharTemplate.strPawnArchetypes.AddItem("GameUnit_ViperKing.ARC_GameUnit_ViperKing");
 
@@ -115,7 +114,6 @@ static function X2CharacterTemplate CreateTemplate_ArchonBoss()
 
 	`CREATE_X2CHARACTER_TEMPLATE(CharTemplate, 'PA_ArchonKing');
 	CharTemplate.CharacterGroupName = 'ArchonKing';
-	CharTemplate.DefaultLoadout='ArchonBoss_Loadout';
 	CharTemplate.BehaviorClass=class'XGAIBehavior';
 	CharTemplate.strPawnArchetypes.AddItem("GameUnit_ArchonKing.ARC_GameUnit_ArchonKing");
 	Loot.ForceLevel=0;
