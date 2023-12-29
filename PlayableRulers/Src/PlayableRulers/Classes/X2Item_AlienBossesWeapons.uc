@@ -102,9 +102,9 @@ static function X2DataTemplate CreateTemplate_PARulers_BoltCaster_CV()
 
 	Template.iPhysicsImpulse = 5;
 
-	Template.StartingItem = false;
+	Template.StartingItem = true;
 	Template.CanBeBuilt = false;
-	Template.bInfiniteItem = false;
+	Template.bInfiniteItem = true;
 	
 	Template.fKnockbackDamageAmount = 5.0f;
 	Template.fKnockbackDamageRadius = 0.0f;
@@ -333,6 +333,7 @@ static function X2DataTemplate CreateTemplate_ArchonBoss_WPN()
 	Template.iPhysicsImpulse = 5;
 
 	Template.CanBeBuilt = false;
+	Template.StartingItem = true;
 
 	return Template;
 }
