@@ -29,6 +29,7 @@ static function X2CharacterTemplate CreateTemplate_ViperBoss()
 	CharTemplate.strTargetingMatineePrefix = "CIN_AdventMEC_FF_StartPos";
 
 	CharTemplate.UnitSize = 1;
+
 	// Traversal Rules
 	CharTemplate.bCanUse_eTraversal_Normal = true;
 	CharTemplate.bCanUse_eTraversal_ClimbOver = true;
@@ -68,7 +69,6 @@ static function X2CharacterTemplate CreateTemplate_ViperBoss()
 	CharTemplate.DefaultSoldierClass = 'ViperKingClass';
 	CharTemplate.DefaultLoadout = 'ViperBoss_Loadout';
 	CharTemplate.RequiredLoadout = 'ViperBoss_Loadout';
-
 
 	CharTemplate.Abilities.AddItem('Interact_PlantBomb');
 	CharTemplate.Abilities.AddItem('PA_ViperKing_Frostbite');
@@ -196,11 +196,8 @@ static function X2CharacterTemplate CreateTemplate_ArchonBoss()
 
 
 	CharTemplate.ImmuneTypes.AddItem('Mental');
-
 	CharTemplate.MPPointValue = CharTemplate.XpKillscore * 10;
-
 	CharTemplate.strScamperBT = "ScamperRoot_NoCover";
-
 	CharTemplate.SightedNarrativeMoments.AddItem(XComNarrativeMoment'DLC_60_NarrativeMoments.DLC2_T_Archon_King_Reveal');
 
 	CharTemplate.strTargetIconImage = class'UIUtilities_Image'.const.TargetIcon_Alien;
@@ -253,7 +250,7 @@ static function X2CharacterTemplate CreateTemplate_BerserkerBoss()
 	CharTemplate.bCanBeTerrorist = false;
 	CharTemplate.bCanBeCriticallyWounded = false;
 	CharTemplate.bIsAfraidOfFire = true;
-	CharTemplate.bCanBeCarried = true;	
+	CharTemplate.bCanBeCarried = true;
 	CharTemplate.bCanBeRevived = true;
 	CharTemplate.bUsePoolSoldiers = true;
 	CharTemplate.bStaffingAllowed = true;
@@ -288,7 +285,6 @@ static function X2CharacterTemplate CreateTemplate_BerserkerBoss()
 
 	CharTemplate.bAllowSpawnFromATT = false;
 	CharTemplate.bAllowRushCam = false;
-
 	CharTemplate.strScamperBT = "ScamperRoot_MeleeNoCover";
 
 	CharTemplate.strTargetIconImage = class'UIUtilities_Image'.const.TargetIcon_Alien;
