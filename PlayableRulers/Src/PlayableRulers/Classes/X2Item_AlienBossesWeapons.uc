@@ -386,7 +386,7 @@ static function X2DataTemplate CreateTemplate_BerserkerBoss_MeleeAttack()
 
 	Template.ItemCat = 'weapon';
 	Template.WeaponCat = 'PA_BerserkerQueenFistCat';
-	Template.WeaponTech = 'magnetic';
+	Template.WeaponTech = 'conventional';
 	Template.strImage = "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_Sword";
 	Template.InventorySlot = eInvSlot_PrimaryWeapon;
 
