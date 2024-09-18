@@ -183,6 +183,7 @@ var name PA_Archon_MC_Test;
 var config bool PA_ArchonKing_MC_DisplayIn_UI_Tooltip;
 var config bool PA_ArchonKing_MC_DisplayIn_TacText;
 var config bool PA_Is_ArchonKing_MC_Infinite;
+var config bool PA_Archon_MC_IncludeMutons;
 
 var config int PA_Archon_MC_Chance;
 var config int PA_Archon_MC_Per_Pod;
@@ -956,7 +957,7 @@ static function X2AbilityTemplate Create_PA_QueenDevastatingPunchAbility(int Mov
 	local X2Effect_PunchDamage WeaponDamageEffect;
 	local array<name> SkipExclusions;
 
-	`CREATE_X2ABILITY_TEMPLATE(Template, 'PA_DevastatingPunch');
+	`CREATE_X2ABILITY_TEMPLATE(Template, 'PA_QueenDevastatingPunch');
 	Template.IconImage = "img:///UILibrary_PerkIcons.UIPerk_muton_punch";
 	Template.Hostility = eHostility_Offensive;
 	Template.AbilitySourceName = 'eAbilitySource_Standard';
@@ -1491,6 +1492,10 @@ static function X2AbilityTemplate Create_PA_Archon_MC_Ability()
 	Template.AbilityTargetConditions.AddItem(TargetAlreadyTestedCondition);
 
 	UnitTypeCondition = new class'X2Condition_UnitType';
+
+	if(defaulT.PA_Archon_MC_IncludeMutons) {
+		UnitTypeCondition.IncludeTypes.AddItem('Muton');
+	}
 	UnitTypeCondition.IncludeTypes.AddItem('Archon');
 	Template.AbilityTargetConditions.AddItem(UnitTypeCondition);
 
