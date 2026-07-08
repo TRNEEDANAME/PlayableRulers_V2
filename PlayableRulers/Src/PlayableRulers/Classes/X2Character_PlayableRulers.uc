@@ -1,7 +1,5 @@
 class X2Character_PlayableRulers extends X2Character config(GameData_CharacterStats);
 
-var config bool ALIENS_APPEAR_IN_BASE;
-
 static function array<X2DataTemplate> CreateTemplates()
 {
 	local array<X2DataTemplate> Templates;
@@ -187,7 +185,7 @@ static function X2CharacterTemplate CreateTemplate_ArchonBoss()
 	CharTemplate.Abilities.AddItem('HunkerDown');
 	CharTemplate.Abilities.AddItem('DisableConsumeAllPoints');
 	CharTemplate.Abilities.AddItem('Revive');
-	CharTemplate.Abilities.AddItem('PA_ArchonKingBlazingPinionsStage1');
+	CharTemplate.Abilities.AddItem('ArchonKingBlazingPinionsStage1');
 	CharTemplate.Abilities.AddItem('IcarusDropSlam');
 
 	CharTemplate.ImmuneTypes.AddItem('Shattered');

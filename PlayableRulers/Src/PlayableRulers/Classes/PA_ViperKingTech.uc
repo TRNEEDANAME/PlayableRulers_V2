@@ -31,14 +31,14 @@ static function X2DataTemplate CreatePA_ViperKing_TechTemplate()
 	Template.SortingTier = 1;
 	Template.ResearchCompletedFn = ResearchCompleted;
 	Template.PointsToComplete = class'X2StrategyElement_DefaultTechs'.static.StafferXDays(1, default.ViperKingTech_Days);
-		Resources.ItemTemplateName = 'Supplies';
-		Resources.Quantity = default.ViperKingTech_SupplyCost;
-		Template.Cost.ResourceCosts.AddItem(Resources);
-		Artifacts.ItemTemplateName = 'EleriumCore';
-		Artifacts.ItemTemplateName = 'CorpseViperKing';
-		Artifacts.Quantity = default.ViperKingTech_CoreCost;
-		Template.Cost.ArtifactCosts.AddItem(Artifacts);
-		Template.Requirements.RequiredTechs.AddItem('ViperKingReanimationResearch');
+	Resources.ItemTemplateName = 'Supplies';
+	Resources.Quantity = default.ViperKingTech_SupplyCost;
+	Template.Cost.ResourceCosts.AddItem(Resources);
+	Artifacts.ItemTemplateName = 'EleriumCore';
+	Artifacts.ItemTemplateName = 'CorpseViperKing';
+	Artifacts.Quantity = default.ViperKingTech_CoreCost;
+	Template.Cost.ArtifactCosts.AddItem(Artifacts);
+	Template.Requirements.RequiredTechs.AddItem('ViperKingReanimationResearch');
 	return Template;
 }
 
